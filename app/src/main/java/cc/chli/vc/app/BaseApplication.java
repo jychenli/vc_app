@@ -4,25 +4,26 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 
-/*import com.hebrf.template.app.rxerrorhandler.handererror.ResponseErroListener;
-import com.hebrf.template.config.Config;
-import com.hebrf.template.di.module.AppModule;
-import com.hebrf.template.di.module.ClientModule;
-import com.hebrf.template.di.module.ImageModule;
-import com.hebrf.template.http.GlobeHttpHandler;
-import com.hebrf.template.mvp.ui.activity.BaseActivity;
+
+
 import com.squareup.leakcanary.LeakCanary;
 
-import java.util.LinkedList;*/
+import java.util.LinkedList;
 
+import cc.chli.vc.config.Config;
+import cc.chli.vc.di.module.AppModule;
+import cc.chli.vc.di.module.ClientModule;
+import cc.chli.vc.di.module.ImageModule;
+import cc.chli.vc.mvp.ui.activity.BaseActivity;
 import okhttp3.Interceptor;
+import timber.log.Timber;
 
 /**
  * Created by Administrator on 2016/10/24.
  * 本项目由mvp+dagger2+retrofit+rxjava+androideventbus+butterknife组成
  */
 public abstract class BaseApplication extends Application {
-   /* static private BaseApplication mApplication;
+    static private BaseApplication mApplication;
     public LinkedList<BaseActivity> mActivityList;
     private ClientModule mClientModule;
     private AppModule mAppModule;
@@ -52,19 +53,19 @@ public abstract class BaseApplication extends Application {
         }
     }
 
-    *//**
+    /*
      * 提供基础url给retrofit
      *
      * @return
-     *//*
+    */
     protected abstract String getBaseUrl();
 
 
-    *//**
+    /*
      * 返回一个存储所有存在的activity的列表
      *
      * @return
-     *//*
+    */
     public LinkedList<BaseActivity> getActivityList() {
         if (mActivityList == null) {
             mActivityList = new LinkedList<BaseActivity>();
@@ -86,33 +87,33 @@ public abstract class BaseApplication extends Application {
     }
 
 
-    *//**
+    /*
      * 这里可以提供一个全局处理http响应结果的处理类,
      * 这里可以比客户端提前一步拿到服务器返回的结果,可以做一些操作,比如token超时,重新获取
      * 默认不实现,如果有需求可以重写此方法
      *
      * @return
-     *//*
+    */
     protected GlobeHttpHandler getHttpHandler() {
         return null;
     }
 
-    *//**
+    /**
      * 用来提供interceptor,如果要提供额外的interceptor可以让子application实现此方法
      *
      * @return
-     *//*
+     */
     protected Interceptor[] getInterceptors() {
         return null;
     }
 
 
-    *//**
+    /*
      * 用来提供处理所有错误的监听
      * 如果要使用ErrorHandleSubscriber(默认实现Subscriber的onError方法)
      * 则让子application重写此方法
      * @return
-     *//*
+      */
     protected ResponseErroListener getResponseErroListener() {
         return new ResponseErroListener() {
             @Override
@@ -122,23 +123,22 @@ public abstract class BaseApplication extends Application {
         };
     }
 
-    *//**
+
+    /**
      * 返回上下文
-     *
      * @return
-     *//*
+     */
     public static Context getContext() {
         return mApplication;
     }
 
-
-    *//**
+    /**
      * 退出所有activity
-     *//*
+     */
     public static void killAll() {
         Intent intent = new Intent(BaseActivity.ACTION_RECEIVER_ACTIVITY);
         intent.putExtra("type", "killAll");
         getContext().sendBroadcast(intent);
-    }*/
+    }
 
 }
