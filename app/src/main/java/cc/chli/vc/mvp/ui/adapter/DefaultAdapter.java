@@ -5,9 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.hebrf.template.mvp.ui.holder.BaseHolder;
+
 
 import java.util.List;
+
+import cc.chli.vc.mvp.ui.holder.BaseHolder;
 
 /**
  * Created by Administrator on 2016/10/24.

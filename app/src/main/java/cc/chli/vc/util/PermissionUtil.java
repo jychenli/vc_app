@@ -2,15 +2,15 @@ package cc.chli.vc.util;
 
 import android.Manifest;
 
-import com.hebrf.template.app.rxerrorhandler.core.RxErrorHandler;
-import com.hebrf.template.app.rxerrorhandler.handererror.ErrorHandleSubscriber;
-import com.hebrf.template.mvp.ui.activity.BaseActivity;
-import com.hebrf.template.mvp.ui.fragment.BaseFragment;
-import com.hebrf.template.mvp.ui.viewbase.BaseView;
 import com.tbruyelle.rxpermissions.RxPermissions;
 import com.trello.rxlifecycle.LifecycleTransformer;
 
 
+import cc.chli.vc.app.rxerrorhandler.core.RxErrorHandler;
+import cc.chli.vc.app.rxerrorhandler.handererror.ErrorHandleSubscriber;
+import cc.chli.vc.mvp.ui.activity.BaseActivity;
+import cc.chli.vc.mvp.ui.fragment.BaseFragment;
+import cc.chli.vc.mvp.ui.viewbase.BaseView;
 import timber.log.Timber;
 
 /**

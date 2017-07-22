@@ -1,9 +1,9 @@
 package cc.chli.vc.di.module;
 
-import com.hebrf.template.mvp.model.api.service.CommonService;
 
 import javax.inject.Singleton;
 
+import cc.chli.vc.mvp.model.api.service.CommonService;
 import dagger.Module;
 import dagger.Provides;
 import retrofit2.Retrofit;

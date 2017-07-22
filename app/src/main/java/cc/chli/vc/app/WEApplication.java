@@ -1,33 +1,34 @@
 package cc.chli.vc.app;
 
-/*import android.content.Context;
+import android.content.Context;
 
-import com.hebrf.template.app.rxerrorhandler.handererror.ResponseErroListener;
 
-import com.hebrf.template.di.commponent.AppComponent;
-import com.hebrf.template.di.commponent.DaggerAppComponent;
-import com.hebrf.template.di.module.CacheModule;
-import com.hebrf.template.di.module.ServiceModule;
-import com.hebrf.template.http.GlobeHttpHandler;
-import com.hebrf.template.mvp.model.api.Api;
-import com.hebrf.template.utils.UiUtils;
 import com.squareup.leakcanary.LeakCanary;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import cc.chli.vc.app.rxerrorhandler.handererror.ResponseErroListener;
 import cc.chli.vc.config.Config;
+import cc.chli.vc.di.commponent.AppComponent;
+import cc.chli.vc.di.commponent.DaggerAppComponent;
+import cc.chli.vc.di.module.CacheModule;
+import cc.chli.vc.di.module.ServiceModule;
+import cc.chli.vc.http.GlobeHttpHandler;
+import cc.chli.vc.mvp.model.api.Api;
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
-import timber.log.Timber;*/
+import timber.log.Timber;
+
+import cc.chli.vc.util.UiUtils;
 
 /**
  * Created by LYB on 2016/10/26.
  */
 public class WEApplication extends BaseApplication {
-   /* private AppComponent mAppComponent;
+   private AppComponent mAppComponent;
 
     @Override
     public void onCreate() {
@@ -54,22 +55,22 @@ public class WEApplication extends BaseApplication {
         return Api.APP_DOMAIN;
     }
 
-    *//**
+    /**
      * 将AppComponent返回出去,供其它地方使用, AppComponent接口中声明的方法返回的实例, 在getAppComponent()拿到对象后都可以直接使用
      * @return
-     *//*
+     */
     public AppComponent getAppComponent() {
         return mAppComponent;
     }
 
 
-    *//**
+    /**
      * 这里可以提供一个全局处理http响应结果的处理类,
      * 这里可以比客户端提前一步拿到服务器返回的结果,可以做一些操作,比如token超时,重新获取
      * 默认不实现,如果有需求可以重写此方法
      *
      * @return
-     *//*
+     */
     @Override
     public GlobeHttpHandler getHttpHandler() {
         return new GlobeHttpHandler() {
@@ -127,5 +128,5 @@ public class WEApplication extends BaseApplication {
                 UiUtils.SnackbarText("net error");
             }
         };
-    }*/
+    }
 }

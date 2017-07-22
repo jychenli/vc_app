@@ -2,12 +2,13 @@ package cc.chli.vc.mvp.ui.adapter;
 
 import android.view.View;
 
-import com.hebrf.template.R;
-import com.hebrf.template.mvp.model.entity.User;
-import com.hebrf.template.mvp.ui.holder.BaseHolder;
-import com.hebrf.template.mvp.ui.holder.UserItemHolder;
 
 import java.util.List;
+
+import cc.chli.vc.R;
+import cc.chli.vc.mvp.model.entity.User;
+import cc.chli.vc.mvp.ui.holder.BaseHolder;
+import cc.chli.vc.mvp.ui.holder.UserItemHolder;
 
 /**
  * Created by Administrator on 2016/10/26.

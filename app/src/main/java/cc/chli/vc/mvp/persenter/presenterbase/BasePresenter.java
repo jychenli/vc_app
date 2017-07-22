@@ -1,9 +1,10 @@
 package cc.chli.vc.mvp.persenter.presenterbase;
 
-import com.hebrf.template.mvp.ui.viewbase.BaseView;
+
 
 import org.simple.eventbus.EventBus;
 
+import cc.chli.vc.mvp.ui.viewbase.BaseView;
 import rx.Subscription;
 import rx.subscriptions.CompositeSubscription;
 

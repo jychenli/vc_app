@@ -1,9 +1,10 @@
 package cc.chli.vc.di.module;
 
-import com.hebrf.template.mvp.model.api.cache.CommonCache;
+
 
 import javax.inject.Singleton;
 
+import cc.chli.vc.mvp.model.api.cache.CommonCache;
 import dagger.Module;
 import dagger.Provides;
 import io.rx_cache.internal.RxCache;

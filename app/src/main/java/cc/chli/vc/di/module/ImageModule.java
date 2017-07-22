@@ -1,11 +1,12 @@
 package cc.chli.vc.di.module;
 
-import com.hebrf.template.mvp.ui.widget.imageloader.BaseImageLoaderStrategy;
-import com.hebrf.template.mvp.ui.widget.imageloader.ImageLoader;
-import com.hebrf.template.mvp.ui.widget.imageloader.glide.GlideImageLoaderStrategy;
+
 
 import javax.inject.Singleton;
 
+import cc.chli.vc.mvp.ui.widget.imageloader.BaseImageLoaderStrategy;
+import cc.chli.vc.mvp.ui.widget.imageloader.ImageLoader;
+import cc.chli.vc.mvp.ui.widget.imageloader.glide.GlideImageLoaderStrategy;
 import dagger.Module;
 import dagger.Provides;
 

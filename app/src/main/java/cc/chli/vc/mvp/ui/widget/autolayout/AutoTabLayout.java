@@ -8,9 +8,11 @@ import android.util.TypedValue;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.hebrf.template.R;
+
 import com.zhy.autolayout.utils.AutoUtils;
 import com.zhy.autolayout.utils.DimenUtils;
+
+import cc.chli.vc.R;
 
 /**
  * Created by Administrator on 2016/10/24.

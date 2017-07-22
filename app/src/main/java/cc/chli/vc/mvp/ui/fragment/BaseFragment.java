@@ -6,8 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.hebrf.template.mvp.persenter.presenterbase.BasePresenter;
-import com.hebrf.template.mvp.ui.activity.BaseActivity;
+
 import com.trello.rxlifecycle.components.support.RxFragment;
 
 import org.simple.eventbus.EventBus;
@@ -15,6 +14,8 @@ import org.simple.eventbus.EventBus;
 import javax.inject.Inject;
 
 import butterknife.ButterKnife;
+import cc.chli.vc.mvp.persenter.presenterbase.BasePresenter;
+import cc.chli.vc.mvp.ui.activity.BaseActivity;
 
 /**
  * Created by LYB on 2016/10/24.

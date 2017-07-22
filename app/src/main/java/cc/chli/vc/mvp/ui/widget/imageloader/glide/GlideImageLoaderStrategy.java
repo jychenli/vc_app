@@ -6,7 +6,9 @@ import com.bumptech.glide.DrawableRequestBuilder;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.hebrf.template.mvp.ui.widget.imageloader.BaseImageLoaderStrategy;
+
+import cc.chli.vc.mvp.ui.widget.imageloader.BaseImageLoaderStrategy;
+
 
 /**
  * Created by LYB on 2016/10/24.

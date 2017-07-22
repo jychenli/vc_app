@@ -1,9 +1,9 @@
 package cc.chli.vc.di.commponent;
 
-import com.hebrf.template.di.module.UserModule;
-import com.hebrf.template.di.scope.ActivityScope;
-import com.hebrf.template.mvp.ui.activity.MainActivity;
 
+import cc.chli.vc.di.module.UserModule;
+import cc.chli.vc.di.scope.ActivityScope;
+import cc.chli.vc.mvp.ui.activity.MainActivity;
 import dagger.Component;
 
 /**

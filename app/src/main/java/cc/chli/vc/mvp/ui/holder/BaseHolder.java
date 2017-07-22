@@ -3,10 +3,12 @@ package cc.chli.vc.mvp.ui.holder;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.hebrf.template.utils.KnifeUtil;
+
 import com.zhy.autolayout.utils.AutoUtils;
 
 import org.simple.eventbus.EventBus;
+
+import cc.chli.vc.util.KnifeUtil;
 
 /**
  * Created by LYB on 2016/10/24.

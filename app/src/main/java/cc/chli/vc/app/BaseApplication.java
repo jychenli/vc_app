@@ -10,10 +10,12 @@ import com.squareup.leakcanary.LeakCanary;
 
 import java.util.LinkedList;
 
+import cc.chli.vc.app.rxerrorhandler.handererror.ResponseErroListener;
 import cc.chli.vc.config.Config;
 import cc.chli.vc.di.module.AppModule;
 import cc.chli.vc.di.module.ClientModule;
 import cc.chli.vc.di.module.ImageModule;
+import cc.chli.vc.http.GlobeHttpHandler;
 import cc.chli.vc.mvp.ui.activity.BaseActivity;
 import okhttp3.Interceptor;
 import timber.log.Timber;

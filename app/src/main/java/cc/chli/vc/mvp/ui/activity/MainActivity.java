@@ -9,17 +9,18 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.hebrf.template.R;
-import com.hebrf.template.contract.UserContract;
-import com.hebrf.template.di.commponent.AppComponent;
-import com.hebrf.template.di.commponent.DaggerUserComponent;
-import com.hebrf.template.di.module.UserModule;
-import com.hebrf.template.mvp.persenter.presenterbase.UserPresenter;
-import com.hebrf.template.mvp.ui.adapter.DefaultAdapter;
-import com.hebrf.template.utils.UiUtils;
+
 import com.paginate.Paginate;
 
 import butterknife.Bind;
+import cc.chli.vc.R;
+import cc.chli.vc.contract.UserContract;
+import cc.chli.vc.di.commponent.AppComponent;
+import cc.chli.vc.di.commponent.DaggerUserComponent;
+import cc.chli.vc.di.module.UserModule;
+import cc.chli.vc.mvp.persenter.presenterbase.UserPresenter;
+import cc.chli.vc.mvp.ui.adapter.DefaultAdapter;
+import cc.chli.vc.util.UiUtils;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;

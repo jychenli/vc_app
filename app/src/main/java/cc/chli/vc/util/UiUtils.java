@@ -19,10 +19,11 @@ import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.hebrf.template.app.application.BaseApplication;
-import com.hebrf.template.mvp.ui.activity.BaseActivity;
 
 import java.security.MessageDigest;
+
+import cc.chli.vc.app.BaseApplication;
+import cc.chli.vc.mvp.ui.activity.BaseActivity;
 
 /**
  * Created by Administrator on 2016/10/24.

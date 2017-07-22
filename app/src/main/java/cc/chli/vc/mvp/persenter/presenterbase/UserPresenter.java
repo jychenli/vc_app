@@ -1,15 +1,6 @@
 package cc.chli.vc.mvp.persenter.presenterbase;
 
-import com.hebrf.template.app.rxerrorhandler.core.RxErrorHandler;
-import com.hebrf.template.app.rxerrorhandler.handererror.ErrorHandleSubscriber;
-import com.hebrf.template.app.rxerrorhandler.handererror.RetryWithDelay;
-import com.hebrf.template.contract.UserContract;
-import com.hebrf.template.di.scope.ActivityScope;
-import com.hebrf.template.mvp.model.entity.User;
-import com.hebrf.template.mvp.ui.activity.BaseActivity;
-import com.hebrf.template.mvp.ui.adapter.DefaultAdapter;
-import com.hebrf.template.mvp.ui.adapter.UserAdapter;
-import com.hebrf.template.utils.PermissionUtil;
+
 import com.tbruyelle.rxpermissions.RxPermissions;
 
 import java.util.ArrayList;
@@ -17,6 +8,16 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import cc.chli.vc.app.rxerrorhandler.core.RxErrorHandler;
+import cc.chli.vc.app.rxerrorhandler.handererror.ErrorHandleSubscriber;
+import cc.chli.vc.app.rxerrorhandler.handererror.RetryWithDelay;
+import cc.chli.vc.contract.UserContract;
+import cc.chli.vc.di.scope.ActivityScope;
+import cc.chli.vc.mvp.model.entity.User;
+import cc.chli.vc.mvp.ui.activity.BaseActivity;
+import cc.chli.vc.mvp.ui.adapter.DefaultAdapter;
+import cc.chli.vc.mvp.ui.adapter.UserAdapter;
+import cc.chli.vc.util.PermissionUtil;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action0;
 import rx.schedulers.Schedulers;

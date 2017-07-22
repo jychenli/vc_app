@@ -2,7 +2,8 @@ package cc.chli.vc.mvp.ui.widget.imageloader.glide;
 
 import android.widget.ImageView;
 
-import com.hebrf.template.mvp.ui.widget.imageloader.ImageConfig;
+import cc.chli.vc.mvp.ui.widget.imageloader.ImageConfig;
+
 
 /**
  * Created by LYB on 2016/10/24.

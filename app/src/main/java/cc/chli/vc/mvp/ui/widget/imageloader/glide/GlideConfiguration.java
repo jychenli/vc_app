@@ -11,10 +11,12 @@ import com.bumptech.glide.load.engine.cache.DiskLruCacheWrapper;
 import com.bumptech.glide.load.engine.cache.LruResourceCache;
 import com.bumptech.glide.load.engine.cache.MemorySizeCalculator;
 import com.bumptech.glide.module.GlideModule;
-import com.hebrf.template.utils.DataHelper;
-import com.hebrf.template.utils.UiUtils;
+
 
 import java.io.File;
+
+import cc.chli.vc.util.DataHelper;
+import cc.chli.vc.util.UiUtils;
 
 /**
  * Created by LYB on 2016/10/24.

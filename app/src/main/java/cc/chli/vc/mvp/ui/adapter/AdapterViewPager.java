@@ -7,9 +7,10 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.hebrf.template.mvp.ui.fragment.BaseFragment;
 
 import java.util.List;
+
+import cc.chli.vc.mvp.ui.fragment.BaseFragment;
 
 /**
  * Created by Administrator on 2016/10/24.

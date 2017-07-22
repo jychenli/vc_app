@@ -2,11 +2,7 @@ package cc.chli.vc.di.module;
 
 import android.app.Application;
 
-import com.hebrf.template.app.rxerrorhandler.core.RxErrorHandler;
-import com.hebrf.template.app.rxerrorhandler.handererror.ResponseErroListener;
-import com.hebrf.template.http.GlobeHttpHandler;
-import com.hebrf.template.http.RequestIntercept;
-import com.hebrf.template.utils.DataHelper;
+
 import com.tbruyelle.rxpermissions.RxPermissions;
 
 import java.io.File;
@@ -14,6 +10,11 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Singleton;
 
+import cc.chli.vc.app.rxerrorhandler.core.RxErrorHandler;
+import cc.chli.vc.app.rxerrorhandler.handererror.ResponseErroListener;
+import cc.chli.vc.http.GlobeHttpHandler;
+import cc.chli.vc.http.RequestIntercept;
+import cc.chli.vc.util.DataHelper;
 import dagger.Module;
 import dagger.Provides;
 import io.rx_cache.internal.RxCache;

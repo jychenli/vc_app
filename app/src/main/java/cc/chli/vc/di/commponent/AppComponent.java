@@ -8,6 +8,7 @@ import com.tbruyelle.rxpermissions.RxPermissions;
 
 import javax.inject.Singleton;
 
+import cc.chli.vc.app.rxerrorhandler.core.RxErrorHandler;
 import cc.chli.vc.di.module.AppModule;
 import cc.chli.vc.di.module.CacheModule;
 import cc.chli.vc.di.module.ClientModule;

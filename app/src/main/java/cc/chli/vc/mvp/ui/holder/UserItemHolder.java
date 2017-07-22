@@ -5,14 +5,15 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.hebrf.template.R;
-import com.hebrf.template.app.application.WEApplication;
-import com.hebrf.template.mvp.model.entity.User;
-import com.hebrf.template.mvp.ui.widget.imageloader.ImageLoader;
-import com.hebrf.template.mvp.ui.widget.imageloader.glide.GlideImageConfig;
+
 import com.jakewharton.rxbinding.widget.RxTextView;
 
 import butterknife.Bind;
+import cc.chli.vc.R;
+import cc.chli.vc.app.WEApplication;
+import cc.chli.vc.mvp.model.entity.User;
+import cc.chli.vc.mvp.ui.widget.imageloader.ImageLoader;
+import cc.chli.vc.mvp.ui.widget.imageloader.glide.GlideImageConfig;
 import rx.Observable;
 
 /**

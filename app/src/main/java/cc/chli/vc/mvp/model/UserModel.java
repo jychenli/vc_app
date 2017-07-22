@@ -1,15 +1,16 @@
 package cc.chli.vc.mvp.model;
 
-import com.hebrf.template.contract.UserContract;
-import com.hebrf.template.mvp.model.api.cache.CacheManager;
-import com.hebrf.template.mvp.model.api.cache.CommonCache;
-import com.hebrf.template.mvp.model.api.service.CommonService;
-import com.hebrf.template.mvp.model.api.service.ServiceManager;
-import com.hebrf.template.mvp.model.entity.User;
-import com.hebrf.template.mvp.model.modelbase.BaseModel;
+
 
 import java.util.List;
 
+import cc.chli.vc.contract.UserContract;
+import cc.chli.vc.mvp.model.api.cache.CacheManager;
+import cc.chli.vc.mvp.model.api.cache.CommonCache;
+import cc.chli.vc.mvp.model.api.service.CommonService;
+import cc.chli.vc.mvp.model.api.service.ServiceManager;
+import cc.chli.vc.mvp.model.entity.User;
+import cc.chli.vc.mvp.model.modelbase.BaseModel;
 import io.rx_cache.DynamicKey;
 import io.rx_cache.EvictDynamicKey;
 import io.rx_cache.Reply;

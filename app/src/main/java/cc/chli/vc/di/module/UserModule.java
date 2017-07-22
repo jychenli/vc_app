@@ -1,11 +1,12 @@
 package cc.chli.vc.di.module;
 
-import com.hebrf.template.contract.UserContract;
-import com.hebrf.template.di.scope.ActivityScope;
-import com.hebrf.template.mvp.model.UserModel;
-import com.hebrf.template.mvp.model.api.cache.CacheManager;
-import com.hebrf.template.mvp.model.api.service.ServiceManager;
 
+
+import cc.chli.vc.contract.UserContract;
+import cc.chli.vc.di.scope.ActivityScope;
+import cc.chli.vc.mvp.model.UserModel;
+import cc.chli.vc.mvp.model.api.cache.CacheManager;
+import cc.chli.vc.mvp.model.api.service.ServiceManager;
 import dagger.Module;
 import dagger.Provides;
 
